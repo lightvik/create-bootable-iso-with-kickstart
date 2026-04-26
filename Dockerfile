@@ -1,6 +1,6 @@
-ARG OS_VERSION
+ARG OS_VERSION=10
 
-FROM oraclelinux:${OS_VERSION:-10}-slim
+FROM oraclelinux:${OS_VERSION}-slim
 
 ARG IMAGE_AUTHOR='lightvik@yandex.ru'
 
