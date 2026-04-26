@@ -67,17 +67,15 @@ docker run \
 
 Если автоматический патчинг не подходит — положить `grub.cfg` и/или `isolinux.cfg` рядом с ISO в `/workdir`. Контейнер использует их напрямую без изменений.
 
-## Разработка
+## Разработка ks.cfg
 
 ```bash
-docker build --tag create-bootable-iso-with-kickstart:dev .
-
 docker run \
   --interactive \
   --tty \
   --rm \
   --volume "${PWD}:/workdir" \
-  create-bootable-iso-with-kickstart:dev
+  ghcr.io/lightvik/create-bootable-iso-with-kickstart:1.0.0
 ```
 
 Для разработки `ks.cfg` удобно использовать HTTP:
@@ -86,4 +84,4 @@ docker run \
 python3 -m http.server
 ```
 
-И указать `KS_SOURCE=http://<ip>:8000/ks.cfg` — образ пересобирать не нужно.
+И собрать образ с `KS_SOURCE=http://<ip>:8000/ks.cfg`
