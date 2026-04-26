@@ -6,6 +6,7 @@ ARG IMAGE_AUTHOR='lightvik@yandex.ru'
 
 LABEL org.opencontainers.image.authors="${IMAGE_AUTHOR}"
 
+# hadolint ignore=DL3041
 RUN microdnf install -y xorriso isomd5sum && \
     microdnf clean all && \
     rm -rf /var/cache/yum /var/cache/dnf
