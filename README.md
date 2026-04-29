@@ -1,4 +1,11 @@
-# Создание загрузочного ISO с интегрированным Kickstart
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.svg">
+    <img src="logo-light.svg" alt="packer-opnsense" width="660">
+  </picture>
+</div>
+
+## Описание
 
 Инструмент автоматически патчит `grub.cfg` и `isolinux.cfg` внутри ISO образа и добавляет файл `ks.cfg` для автоматической установки Oracle Linux.
 
