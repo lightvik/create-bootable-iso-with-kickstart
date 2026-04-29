@@ -4,7 +4,7 @@
   <polygon points="32,15 46,31 32,31" fill="#1c1c2e" opacity="0.1"></polygon>
   <text x="7" y="53" style="font-family:&#39;Courier New&#39;,Courier,monospace;font-size:14px;fill:#1c1c2e;font-weight:700;">ks</text>
   <text x="7" y="67" style="font-family:&#39;Courier New&#39;,Courier,monospace;font-size:12px;fill:#1c1c2e;opacity:0.5;">.cfg</text>
-  <line x1="61" y1="45" x2="73" y2="45" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round"></line>
+  <line x1="61" y1="45" x2="76" y2="45" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round"></line>
   <polyline points="67,38 77,45 67,52" fill="none" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></polyline>
   <circle cx="118" cy="45" r="26" fill="none" stroke="#1c1c2e" stroke-width="2"></circle>
   <circle cx="118" cy="45" r="19" fill="none" stroke="#1c1c2e" stroke-width="0.9" opacity="0.22"></circle>
