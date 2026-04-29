@@ -1,9 +1,7 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.svg">
-    <img src="logo-light.svg" alt="packer-opnsense" width="660">
-  </picture>
-</p>
+<div align="center">
+  <img src="logo-dark.svg#gh-dark-mode-only" alt="create-bootable-iso-with-kickstart" width="570">
+  <img src="logo-light.svg#gh-light-mode-only" alt="create-bootable-iso-with-kickstart" width="570">
+</div>
 
 ## Описание
 
