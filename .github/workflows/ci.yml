@@ -25,7 +25,7 @@ jobs:
           additional_files: entrypoint.sh
 
   publish:
-    if: github.ref_type == 'tag' && !startsWith(github.ref_name, 'v')
+    if: github.ref_type == 'tag' && startsWith(github.ref_name, 'v')
     needs: lint
     runs-on: ubuntu-latest
     permissions:

@@ -31,7 +31,7 @@ docker run \
   --tty \
   --rm \
   --volume "${PWD}:/workdir" \
-  ghcr.io/lightvik/create-bootable-iso-with-kickstart:1.0.0
+  ghcr.io/lightvik/create-bootable-iso-with-kickstart:v1.0.0
 ```
 
 Контейнер запустится в интерактивном режиме и задаст вопросы:
@@ -67,7 +67,7 @@ docker run \
   --env "KS_SOURCE=cdrom:/ks.cfg" \
   --env "BOOT_TIMEOUT=5" \
   --env "BOOT_DEFAULT=0" \
-  ghcr.io/lightvik/create-bootable-iso-with-kickstart:1.0.0
+  ghcr.io/lightvik/create-bootable-iso-with-kickstart:v1.0.0
 ```
 
 ### Ручное управление cfg файлами
@@ -82,7 +82,7 @@ docker run \
   --tty \
   --rm \
   --volume "${PWD}:/workdir" \
-  ghcr.io/lightvik/create-bootable-iso-with-kickstart:1.0.0
+  ghcr.io/lightvik/create-bootable-iso-with-kickstart:v1.0.0
 ```
 
 Для разработки `ks.cfg` удобно использовать HTTP:
